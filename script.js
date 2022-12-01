@@ -8,7 +8,7 @@ var radius = canvas.height / 2;
 // Center the ctx
 ctx.translate(radius, radius);
 
-// Draw the Clock every second
+// Draw the clock every second
 setInterval(drawClock, 1000);
 
 function clearCanvas(canvas) {
@@ -138,6 +138,6 @@ function drawStep(ctx, pos, length, width, color) {
 function drawNose(ctx, radius) {
   ctx.beginPath();
   ctx.arc(0, 0, radius * 0.08, 0, 2 * Math.PI);
-  ctx.fillStyle = "#b598ea";
+  ctx.fillStyle = "#ffe5b4";
   ctx.fill();
 }
